@@ -1,0 +1,10 @@
+p {
+    background-color: aquamarine;
+    border: 5px solid burlywood;
+    font-size: 16px;
+    padding: 7px;
+}
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: olivedrab;
+}
