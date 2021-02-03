@@ -34,6 +34,18 @@ h2 {
     background-color: salmon;
     border: 5px solid mediumseagreen;
 }
+
+#memory {
+    display:none;
+}
+
+#memory p {
+    border: 5px solid black;
+    border-radius: 60px 60px 0 0;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 30px;
+}
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: olivedrab;

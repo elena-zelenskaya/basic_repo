@@ -30,9 +30,9 @@ createNewBlock();
 function murderOfRoflSon() {
     document.getElementById("sonOfRofl").onmousedown = function(e) {
         document.getElementById("sonOfRofl").getElementsByTagName("p")[0].innerHTML="Why did you do it?! You just killed me :( Goodbye...";
-        document.getElementById("sonOfRofl").getElementsByTagName("p")[0].style.backgroundColor="grey";
+        document.getElementById("sonOfRofl").getElementsByTagName("p")[0].style.backgroundColor="red";
         document.getElementById("sonOfRofl").getElementsByTagName("p")[0].style.borderColor="black";
-        setTimeout(death, 3000);
+        setTimeout(death, 2000);
     }
 }
 
@@ -40,5 +40,6 @@ murderOfRoflSon();
 
 function death() {
     //document.getElementById("sonOfRofl").innerHTML="DEAD";
-    document.getElementById("sonOfRofl").style.display="none"
+    document.getElementById("sonOfRofl").style.display="none";
+    document.getElementById("memory").style.display="inline-block";
 }
